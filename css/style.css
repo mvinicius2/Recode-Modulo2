@@ -1,0 +1,327 @@
+         @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+         .corpo {
+             line-height: 1.8;
+             color: #898fa1;
+             font-size: 15px;
+             font-family: 'Lato', sans-serif;
+         }
+         
+         #conteudo {
+             font-weight: 700;
+             letter-spacing: 1px;
+             text-transform: uppercase;
+             color: whitesmoke;
+             text-shadow: 0px 5px rgb(74, 103, 106, 0.2);
+         }
+         
+         .container {
+             line-height: 1.8;
+             color: #898fa1;
+             font-size: 15px;
+             font-family: 'Lato', sans-serif;
+         }
+         
+         .title-sm {
+             font-size: 16px;
+             letter-spacing: 1px;
+         }
+         
+         a {
+             font-weight: 700;
+             transition: all 0.4s ease;
+             text-decoration: none;
+         }
+         
+         p {
+             font-size: 20px;
+         }
+         
+         img {
+             width: 100%;
+         }
+         
+         section {
+             padding-top: 100px;
+             padding-bottom: 185px;
+         }
+         
+         small {
+             font-size: 12px;
+             letter-spacing: 2px;
+             font-weight: 700;
+             text-transform: uppercase;
+         }
+         
+         .navbar {
+             border-bottom: 1px solid rgb(0, 0, 0.1);
+         }
+         
+         .navbar .navbar-brand {
+             padding: 1rem 0;
+             display: block;
+             text-decoration: none;
+         }
+         
+         .logo-text {
+             font-size: 22px;
+             text-transform: uppercase;
+             color: #6207e2 !important;
+         }
+         
+         .navbar .nav-link {
+             font-size: 15px;
+             text-transform: uppercase;
+             letter-spacing: 1px;
+         }
+         
+         .navbar-light .navbar-nav .nav-link:focus {
+             color: #6207e2;
+         }
+         
+         #logo {
+             float: left;
+         }
+         
+         #home {
+             min-height: 100vh;
+             background: linear-gradient(rgba(141, 73, 164, 0.7), rgba(141, 73, 164, 0.7)), url(../img/pexels-oleksandr-pidvalnyi-1008155.jpg);
+             background-position: center center;
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             display: flex;
+             align-items: center;
+         }
+         
+         #home h1 {
+             font-weight: 500;
+             margin: center;
+         }
+         
+         #home p {
+             max-width: 550px;
+             margin: auto;
+         }
+         
+         .btn {
+             font-weight: 700;
+             font-size: 20px;
+             text-transform: uppercase;
+             margin: 10px;
+         }
+         
+         .btn-brand {
+             background-color: whitesmoke;
+             color: #6207e2;
+             box-sizing: border-box;
+             border-radius: 24px;
+         }
+         
+         .roxo {
+             color: #6207e2;
+         }
+         /*********Página Promoção*********/
+         
+         .promoçao {
+             background: #e1e8f7;
+             padding: 15px;
+             height: 790px;
+             background: linear-gradient(rgba(141, 73, 164, 0.3), rgba(141, 73, 164, 0.3)), url(../img/pexels-marina-m-8357142.jpg);
+         }
+         
+         .promoçao .pacotes-cards {
+             display: flex;
+             margin: auto;
+             max-width: 950px;
+         }
+         
+         .promoçao .pacotes-title {
+             width: 100%;
+             text-align: center;
+             margin: 25px 0;
+         }
+         
+         .promoçao .card {
+             width: 250px;
+             height: 350px;
+             background: white;
+             border-radius: 24px 0px;
+             margin: 25px;
+             display: inline-block;
+             justify-content: center;
+         }
+         
+         .promoçao .card-image {
+             width: 250px;
+             height: 200px;
+             border-radius: 24px 0 0 0;
+             object-fit: cover;
+         }
+         
+         .promoçao .card-content {
+             padding: 0 15px;
+         }
+         
+         .promoçao .card-content ul {
+             display: flex;
+             flex-direction: column;
+             padding: 0;
+         }
+         
+         .promoçao .card-content ul li {
+             font-size: 0.6rem;
+             display: flex;
+             align-items: center;
+             margin: 3px 0;
+             color: grey;
+             font-weight: bold;
+         }
+         
+         .promoçao .card-content li svg {
+             width: 16px;
+             height: 16px;
+             margin-right: 10px;
+         }
+         
+         .promoçao .card-content i {
+             width: 10px;
+             height: 10px;
+             margin-right: 5px;
+         }
+         
+         .promoçao .card-content h1 {
+             font-size: 1rem;
+         }
+         
+         .promoçao .card .card-tag-top {
+             position: absolute;
+             right: 0;
+             top: 15px;
+             background: #F19B39;
+             border-radius: 8px 0 0 8px;
+             padding: 5px 10px;
+         }
+         
+         .promoçao .card .card-tag-bottom {
+             position: absolute;
+             left: 0;
+             top: 160px;
+             background: #1D61DD;
+             border-radius: 0 8px 8px 0;
+             padding: 5px 10px;
+         }
+         
+         .promoçao .card .card-tag p {
+             margin: 0;
+             font-size: 0.8rem;
+             color: white;
+             font-weight: bold;
+         }
+         
+         .promoçao-title {
+             font-weight: 700;
+             letter-spacing: 1px;
+             text-transform: uppercase;
+             color: whitesmoke;
+             text-shadow: 0px 5px rgb(74, 103, 106, 0.2);
+             text-align: center;
+         }
+         /*********Página destino*********/
+         
+         .row {
+             margin: auto;
+             display: flex;
+         }
+         
+         .button {
+             background-color: whitesmoke;
+             color: #6207e2;
+             box-sizing: border-box;
+             border-radius: 24px;
+             font-size: 20px;
+             text-transform: uppercase;
+             box-sizing: border-box;
+         }
+         
+         .destinos-title {
+             color: whitesmoke;
+             font-size: 80px;
+             text-shadow: 0px 5px rgb(74, 103, 106, 0.2);
+             text-transform: uppercase;
+             letter-spacing: 1px;
+             padding-top: 150px;
+         }
+         
+         .destino {
+             background: linear-gradient(rgba(141, 73, 164, 0.3), rgba(141, 73, 164, 0.3)), url(../img/pexels-marina-m-8357141.jpg);
+             align-items: stretch;
+         }
+         
+         .carde {
+             width: 200px;
+             height: 230px;
+             display: inline-block;
+             border-radius: 10px;
+             padding: 15px 25px;
+             box-sizing: border-box;
+             cursor: pointer;
+             margin: 10px 15px;
+             background-position: center;
+             background-size: cover;
+         }
+         
+         .card1 {
+             background-image: url(../img/pexels-marian-sol-miranda-10354052.jpg);
+         }
+         
+         .card2 {
+             background-image: url(../img/pexels-pixabay-64271.jpg);
+         }
+         
+         .card3 {
+             background-image: url(../img/pexels-caio-11331741.jpg);
+         }
+         
+         .card4 {
+             background-image: url(../img/pexels-mikhail-nilov-8430383.jpg);
+         }
+         
+         .colun {
+             padding-left: 70vh;
+             align-items: flex-start;
+         }
+         
+         .paragrafo {
+             color: whitesmoke;
+             padding-top: 50px;
+             font-size: 30px;
+         }
+         
+         #contact {
+             background: linear-gradient(rgba(141, 73, 164, 0.3), rgba(141, 73, 164, 0.7)), url(../img/pexels-marina-m-8357141.jpg)
+         }
+         
+         .mb-3 {
+             color: whitesmoke;
+         }
+         
+         .contate {
+             text-align: center;
+             font-size: 90px;
+             align-items: center;
+             padding-bottom: 10px;
+             color: whitesmoke;
+         }
+         
+         .contact {
+             margin: auto;
+             display: flex;
+         }
+         
+         footer {
+             bottom: 0;
+             left: 0;
+             height: 50px;
+             width: 100%;
+             position: fixed;
+         }
